@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Teddy 🎂</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+    }
+    section {
+      height: 100vh;
+      scroll-snap-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .page1 { background: #ffe4e1; }
+    .page2 { background: #fff0f5; }
+    .page3 { background: #e0ffff; }
+    .page4 { background: #faf0e6; }
+    .page5 { background: #fffaf0; }
+    .page-letter {
+      background: #fff8f0;
+      font-family: 'Dancing Script', cursive;
+      color: #4e2a2a;
+      padding: 40px;
+    }
+    .letter-container {
+      max-width: 800px;
+      background: #fff3e6;
+      border: 2px dashed #ffa6a6;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .btn-surprise {
+      padding: 15px 25px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .btn-surprise:hover {
+      background-color: #ff1493;
+    }
+    .heart {
+      font-size: 3rem;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <section class="page1 animate__animated animate__fadeIn">
+    <h1>🎉 Happy Birthday My Teddy 🎉</h1>
+    <p>Today the world got brighter because YOU were born!</p>
+  </section>
+
+  <section class="page2 animate__animated animate__fadeIn">
+    <h2>🌸 You Look So Beautiful 🌸</h2>
+    <img src="beautiful.jpg" alt="Your Smile" style="width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="We.jpg" alt="We" style="width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="Happy.jpg" alt="Us" style="width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="myteddy.jpg" alt="My Sweetheart" style="width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="My Love.jpg" alt="MY LOVE" style="width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2); margin-top:20px;">
+  <img src="she.jpg" alt="Gorgeous" style="width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+  </section>
+
+  <section class="page3 animate__animated animate__fadeIn">
+    <h2>💌 What I Love About You 💌</h2>
+    <ul style="list-style: none; font-size: 1.2rem; line-height: 2;">
+      <li> Your smile that lights up my world✨</li>
+      <li> Your laugh that brings peace to my soul✨</li>
+      <li> Your love that makes me feel whole✨</li>
+      <li> The way you make even silence feel warm✨</li>
+      <li> Your kindness, your patience, your heart✨</li>
+    </ul>
+  </section>
+
+  <section class="page4 animate__animated animate__fadeIn">
+    <h2>🎶 A Song from My Heart 🎶</h2>
+    <audio controls autoplay loop>
+      <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Play this while you scroll and think of us 💕</p>
+  </section>
+
+  <section class="page-letter animate__animated animate__fadeInUp">
+    <div class="letter-container">
+      <h2>To My Teddy 💌</h2>
+      <p>
+        Happy Birthday, my love 💖 <br><br>
+        On this day, the world became a little more beautiful — because you were born. 
+        And ever since the moment you walked into my life, you’ve brought color to my every day,
+        warmth to my coldest nights, and joy I didn’t know I could feel.<br><br>
+        You are not just my girlfriend; you are my best friend, my dream, my home. The universe has its beauty; 
+        but I have you — and <strong>you are my everything</strong>.<br><br>
+        When you smile, it's like the sun has risen just for me. When you laugh, I swear time pauses 
+        just to enjoy the music. My days are incomplete without your voice, and my dreams are sweeter 
+        because they all have you in them.<br><br>
+        I love you endlessly, sweetheart. I thank the stars for giving me <strong>My Teddy</strong> — 
+        the most precious gift I could ever ask for.<br><br>
+        Forever yours,<br>
+        <em>— Your Lucky One 💫</em>
+	<em>— Raad Sharar</em>
+	<em>— Your Favourite Pet (DOG)...hehehehehe</em>
+      </p>
+    </div>
+  </section>
+
+  <section class="page5 animate__animated animate__fadeIn">
+    <h1>🎁 One Last Thing 🎁</h1>
+    <p>Click the button below and close your eyes for 5 seconds...</p>
+    <button class="btn-surprise" onclick="showSurprise()">Reveal My Surprise</button>
+    <div id="surprise-message" style="display:none; margin-top: 20px; font-size: 1.5rem; color: #d63384;">
+      I love you more than words can ever express! 💖 Happy Birthday, My Teddy! 🎂🎉💋
+Many Many thanks for staying in my life and I wish you all the best again.
+	I LOVE YOU SO MUCH>< UMMMMMAAAAHHHHHHH.......
+      <div class="heart">❤️</div>
+    </div>
+  </section>
+
+  <script>
+    function showSurprise() {
+      setTimeout(() => {
+        document.getElementById('surprise-message').style.display = 'block';
+      }, 5000);
+    }
+  </script>
+</body>
+</html>
